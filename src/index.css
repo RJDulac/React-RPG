@@ -1,0 +1,17 @@
+.low-health {
+  background-color: red;
+}
+.medium-health {
+  background-color: yellow;
+}
+.high-health {
+  background-color: green;
+}
+.health-bar {
+  width: 30%;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}

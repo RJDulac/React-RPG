@@ -4,12 +4,15 @@ import ReactDOM from "react-dom";
 import HealthBar from "./HealthBar/HealthBar";
 import Attack from "./Attack/Attack";
 
+import "./index.css";
+
 class App extends Component {
   state = {
     playerTurn: true,
-    playerHealth: 100,
+    playerHealth: 49,
     monsterHealth: 100
   };
+
   render() {
     const turn = this.state.playerTurn ? "player turn" : "monster turn";
 
